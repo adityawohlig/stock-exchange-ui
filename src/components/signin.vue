@@ -1,6 +1,5 @@
 <template>
   <div class="login-signup">
-            <v-card>
                 <v-toolbar flat>
                     <v-tabs v-model="tabs" fixed-tabs>
                         <v-tabs-slider color="orange"></v-tabs-slider>
@@ -27,7 +26,6 @@
                         </v-card>
                     </v-tab-item>
                 </v-tabs-items>
-            </v-card>
     </div>
    
 </template>
